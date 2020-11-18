@@ -66,20 +66,31 @@ const questions = [
 ];
 
 // function to write README file
-//function writeToFile(fileName, data) {
-    //fs.writeFile()
-//}
+function writeToFile(fileName, data) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('README.md', fileName, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'File created!'
+            });
+        });
+    });
+};
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
     .then(data => {
        console.log(data);
-       return data;
+       return generateMarkdown(data);
     })
-    //.then(fileName => {
-    //    return writeToFile(fileName);
-    //})
+    .then(fileName => {
+        return writeToFile(fileName);
+    })
 };
 
 // function call to initialize program

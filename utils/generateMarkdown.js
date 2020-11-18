@@ -104,7 +104,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ${generateBadge(data.license)}
+  ${generateBadge(data)}
 
   ## Description
   ${data.description}
@@ -126,7 +126,7 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   Copyright ${new Date().getFullYear()} ${data.username}
-  ${generateLicense(data.license)}
+  ${generateLicense(data)}
 
   ## Contributing
   ${data.contributing}
