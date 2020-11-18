@@ -25,6 +25,9 @@ const generateBadge = data => {
 const generateLicense = data => {
   if (data.license == 'GPL') {
     return `
+    ${data.license} License
+    Copyright ${new Date().getFullYear()} ${data.name}
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 2 of the License, or
@@ -40,6 +43,9 @@ const generateLicense = data => {
     `;
   } else if (data.license == 'MIT') {
     return `
+    ${data.license} License
+    Copyright ${new Date().getFullYear()} ${data.name}
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
@@ -60,6 +66,9 @@ const generateLicense = data => {
     `;
   } else if (data.license == 'Apache License 2.0') {
     return `
+    ${data.license} License
+    Copyright ${new Date().getFullYear()} ${data.name}
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -74,6 +83,9 @@ const generateLicense = data => {
     `;
   } else if (data.license == 'BSD') {
     return `
+    ${data.license} License
+    Copyright ${new Date().getFullYear()} ${data.name}
+
     Redistribution and use in source and binary forms, with or without modification, 
     are permitted provided that the following conditions are met:
 
@@ -98,6 +110,20 @@ const generateLicense = data => {
     return '';
   }
 };
+
+// function to include contributing or not
+const displayContributing = data => {
+  if (data.contributing) {
+    return `
+    ${data.contributing}
+    `;
+  } else {
+    return `
+    The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard for contributing
+    to projects.
+    `;
+  }
+}
 
 // function to generate markdown for README
 function generateMarkdown(data) {
@@ -124,19 +150,17 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
-  Copyright ${new Date().getFullYear()} ${data.username}
   ${generateLicense(data)}
 
   ## Contributing
-  ${data.contributing}
+  ${displayContributing(data)}
 
   ## Tests
   ${data.tests}
 
   ## Questions
-  ${data.username}
-  If you have additional questions, please contact: ${data.email}
+  See my GitHub profile: <https://github.com/${data.username}>
+  If you have additional questions, please contact <${data.email}>
 `;
 }
 

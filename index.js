@@ -55,6 +55,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'name',
+        message: 'What is your name?'
+    },
+    {
+        type: 'input',
         name: 'username',
         message: 'What is your GitHub username?'
     },
@@ -77,6 +82,7 @@ function writeToFile(fileName, data) {
                 ok: true,
                 message: 'File created!'
             });
+            console.log('File created!');
         });
     });
 };
