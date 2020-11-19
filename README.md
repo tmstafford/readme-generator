@@ -1,11 +1,15 @@
 
-  # Example Title
+  # README Generator
 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
     
 
   ## Description
-  Description
+  When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the   app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the     success of the project.
+  
+  This is a command-line application that dynamically generates a professional README.md file from the user's input using the Inquirer package. This allows the       project creator to devote more time working on the project.
+  
+  Add video/screenshot/video link
 
   ## Table Of Contents
   * [Installation](#installation)
@@ -16,11 +20,14 @@
   * [Questions](#questions)
   
   ## Installation
-  
-    Installation
+  Clone this repository to your project folder. Be sure that the 'index.js' file is in the root of your project's directory.
+  From your command line, run
+    npm install
 
   ## Usage
-  Usage
+  From your command line, run
+    node index.js
+  Answer the prompted questions about your project and once you see 'File Created!', you will have a professional README file containing your answers.
 
   ## License
   
@@ -48,7 +55,7 @@
   
 
   ## Contributing
-  Contributing
+  Made by Tatum Stafford
     
 
   ## Tests
