@@ -22,10 +22,12 @@
   ## Installation
   Clone this repository to your project folder. Be sure that the 'index.js' file is in the root of your project's directory.
   From your command line, run
+  
     npm install
 
   ## Usage
   From your command line, run
+    
     node index.js
   Answer the prompted questions about your project and once you see 'File Created!', you will have a professional README file containing your answers.
 
