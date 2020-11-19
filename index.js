@@ -95,7 +95,7 @@ function init() {
        return generateMarkdown(data);
     })
     .then(fileName => {
-        return writeToFile(fileName);
+        writeToFile(fileName);
     })
 };
 
