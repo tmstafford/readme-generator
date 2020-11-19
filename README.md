@@ -25,7 +25,7 @@
   Clone this repository to your project folder. Be sure that the 'index.js' file is in the root of your project's directory.
   From your command line, run
   
-    npm install
+    npm install inquirer
 
   ## Usage
   From your command line, run
