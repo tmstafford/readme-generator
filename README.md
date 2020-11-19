@@ -1,5 +1,5 @@
 
-  # Title
+  # Example Title
 
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
     
@@ -17,15 +17,16 @@
   
   ## Installation
   
-    installation
+    Installation
 
   ## Usage
-  usage
+  Usage
 
   ## License
   
   MIT License
-  Copyright 2020 Tatum
+
+  Copyright 2020 Tatum Stafford
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -55,4 +56,4 @@
 
   ## Questions
   * [GitHub Profile](https://github.com/tmstafford)
-  * If you have additional questions, please contact <tatumstafford1@email.com>
+  * If you have additional questions, please contact <tatumstafford1@gmail.com>.
