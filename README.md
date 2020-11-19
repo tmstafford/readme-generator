@@ -11,7 +11,7 @@
   
   ![Untitled_ Nov 19, 2020 5_00 PM](https://user-images.githubusercontent.com/70179648/99735621-8c24af80-2a8a-11eb-9d6d-92b5857b8122.gif)
   
-  See the [Sample Video Link](https://drive.google.com/file/d/1QVqXZNrBP4oOsrGJ55HkO0cfnt5RYUW8/view)
+  **See the [Sample Video Link](https://drive.google.com/file/d/1QVqXZNrBP4oOsrGJ55HkO0cfnt5RYUW8/view)**
 
   ## Table Of Contents
   * [Installation](#installation)
