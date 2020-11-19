@@ -31,8 +31,8 @@
     node index.js
   Answer the prompted questions about your project and once you see 'File Created!', you will have a professional README file containing your answers.
   
-  ![Untitled_ Nov 19, 2020 5_06 PM copy](https://user-images.githubusercontent.com/70179648/99736176-8f6c6b00-2a8b-11eb-9399-a1f519909775.gif)
-
+  ![Untitled_ Nov 19, 2020 5_22 PM](https://user-images.githubusercontent.com/70179648/99736432-fa1da680-2a8b-11eb-8f22-d070b521e2a5.gif)
+  
   ## License
   
   MIT License
